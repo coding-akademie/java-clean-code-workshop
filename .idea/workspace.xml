@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="43ff27e0-910d-4cd7-94c1-09c83ecfa5eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/java-clean-code-workshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="43ff27e0-910d-4cd7-94c1-09c83ecfa5eb" name="Default Changelist" comment="initial project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/ITestResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_1_Intention_Revealing_Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_2_Use_Pronounceable_Searchable_Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_3_Describe_the_Problem_Not_The_Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_4_Avoid_Desinformation_and_Make_Meaningful_Distinction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_5_Avoid_Encodings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_6_Parts_of_Speech.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_7_Scrope_Rule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +67,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="aws" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/de/coding/akademie/names" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/de/coding/akademie/names" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,8 +92,16 @@
       <option name="presentableId" value="Default" />
       <updated>1589144590600</updated>
       <workItem from="1589144597159" duration="1000" />
-      <workItem from="1589188210162" duration="383000" />
+      <workItem from="1589188210162" duration="2154000" />
     </task>
+    <task id="LOCAL-00001" summary="initial project">
+      <created>1589189250600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589189250600</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,10 +118,26 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial project" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial project" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="781" y="330" key="SettingsEditor" timestamp="1589188232304">
+    <state x="781" y="330" key="SettingsEditor" timestamp="1589189384387">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="781" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1589188232304" />
+    <state x="781" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1589189384387" />
+    <state x="765" y="490" key="Vcs.Push.Dialog.v2" timestamp="1589189254004">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="765" y="490" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1589189254004" />
+    <state x="779" y="545" key="git4idea.merge.GitPullDialog" timestamp="1589189624918">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="779" y="545" key="git4idea.merge.GitPullDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1589189624918" />
+    <state x="157" y="214" key="new project wizard" timestamp="1589189525353">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="157" y="214" key="new project wizard/0.23.2560.1337@0.23.2560.1337" timestamp="1589189525353" />
   </component>
 </project>
