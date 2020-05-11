@@ -19,20 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43ff27e0-910d-4cd7-94c1-09c83ecfa5eb" name="Default Changelist" comment="initial project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/ITestResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_1_Intention_Revealing_Names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_2_Use_Pronounceable_Searchable_Names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_3_Describe_the_Problem_Not_The_Implementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_4_Avoid_Desinformation_and_Make_Meaningful_Distinction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_5_Avoid_Encodings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_6_Parts_of_Speech.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_7_Scrope_Rule.java" afterDir="false" />
+    <list default="true" id="43ff27e0-910d-4cd7-94c1-09c83ecfa5eb" name="Default Changelist" comment="Clean Code Name Rules">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/Extract_Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/HelpKlass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/Rule_2_No_Boolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen/MakeHTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen/PageCrowlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen/PageData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen/PathParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen/SuiteResponder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen/WikiPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen/WikiPagePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/coding/akademie/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/coding/akademie/function/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/coding/akademie/function/kata01/htmlgen/MakeHTMLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/coding/akademie/names/Rule_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/de/coding/akademie/names" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/de/coding/akademie/function/kata01/htmlgen" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,7 +85,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/de/coding/akademie/function/kata01/htmlgen" />
+      <recent name="$PROJECT_DIR$/src/main/java/de/coding/akademie/function/kata01/htmlgen" />
       <recent name="$PROJECT_DIR$/src/main/java/de/coding/akademie/names" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.coding.akademie.function" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -92,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589144590600</updated>
       <workItem from="1589144597159" duration="1000" />
-      <workItem from="1589188210162" duration="2154000" />
+      <workItem from="1589188210162" duration="7052000" />
+      <workItem from="1589210472406" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1589189250600</created>
@@ -101,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589189250600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Clean Code Name Rules">
+      <created>1589202520713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589202520713</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Clean Code Name Rules">
+      <created>1589202537757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589202537757</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,20 +144,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial project" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial project" />
+    <MESSAGE value="Clean Code Name Rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean Code Name Rules" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1037" y="337" key="#com.intellij.ide.util.MemberChooser" timestamp="1589206954469">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1037" y="337" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1589206954469" />
     <state x="781" y="330" key="SettingsEditor" timestamp="1589189384387">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="781" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1589189384387" />
-    <state x="765" y="490" key="Vcs.Push.Dialog.v2" timestamp="1589189254004">
+    <state x="765" y="490" key="Vcs.Push.Dialog.v2" timestamp="1589202522287">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="765" y="490" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1589189254004" />
+    <state x="765" y="490" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1589202522287" />
     <state x="779" y="545" key="git4idea.merge.GitPullDialog" timestamp="1589189624918">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
